@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		733A6E4C1C50DBC200DB6A68 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733A6E4B1C50DBC200DB6A68 /* TableViewController.swift */; };
 		73D8FFA51C4FB2D40056C0B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D8FFA41C4FB2D40056C0B7 /* AppDelegate.swift */; };
 		73D8FFA71C4FB2D40056C0B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D8FFA61C4FB2D40056C0B7 /* ViewController.swift */; };
 		73D8FFAA1C4FB2D40056C0B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73D8FFA81C4FB2D40056C0B7 /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		733A6E4B1C50DBC200DB6A68 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		73D8FFA11C4FB2D40056C0B7 /* InstaClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73D8FFA41C4FB2D40056C0B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73D8FFA61C4FB2D40056C0B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			children = (
 				73D8FFA41C4FB2D40056C0B7 /* AppDelegate.swift */,
 				73D8FFA61C4FB2D40056C0B7 /* ViewController.swift */,
+				733A6E4B1C50DBC200DB6A68 /* TableViewController.swift */,
 				73D8FFA81C4FB2D40056C0B7 /* Main.storyboard */,
 				73D8FFAB1C4FB2D40056C0B7 /* Assets.xcassets */,
 				73D8FFAD1C4FB2D40056C0B7 /* LaunchScreen.storyboard */,
@@ -316,6 +319,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73D8FFA71C4FB2D40056C0B7 /* ViewController.swift in Sources */,
+				733A6E4C1C50DBC200DB6A68 /* TableViewController.swift in Sources */,
 				73D8FFA51C4FB2D40056C0B7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -549,6 +553,7 @@
 				73D8FFCB1C4FB2D40056C0B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73D8FFCC1C4FB2D40056C0B7 /* Build configuration list for PBXNativeTarget "InstaCloneTests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +562,7 @@
 				73D8FFCE1C4FB2D40056C0B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73D8FFCF1C4FB2D40056C0B7 /* Build configuration list for PBXNativeTarget "InstaCloneUITests" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +571,7 @@
 				73D8FFD11C4FB2D40056C0B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

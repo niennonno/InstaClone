@@ -11,8 +11,11 @@ import Parse
 
 class ViewController: UIViewController {
     
+    // MARK: - Global Variables
+    var activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView()
     var signupActive = true
     
+    //MARK: - Outlets
     @IBOutlet var iUserName: UITextField!
     
     @IBOutlet var iPassword: UITextField!
@@ -23,8 +26,7 @@ class ViewController: UIViewController {
     
     @IBOutlet var registrationLabel: UILabel!
     
-    
-    var activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView()
+    //MARK: - UserDefined Functions
     
     func displayAlert( title: String, message: String){
         
@@ -40,6 +42,8 @@ class ViewController: UIViewController {
         self.presentViewController(alert, animated: true, completion: nil)
         
     }
+    
+    //MARK: - Actions
     
     @IBAction func signUp(sender: AnyObject) {
         
@@ -77,6 +81,8 @@ class ViewController: UIViewController {
                         
                         //SignUp Successful
                         
+                        self.performSegueWithIdentifier("login", sender: self)
+                        
                     } else {
                         
                         if let errorString = error!.userInfo["error"] as? String {
@@ -101,6 +107,8 @@ class ViewController: UIViewController {
                     if user != nil {
                         
                         //Logged In!
+                        
+                        self.performSegueWithIdentifier("login", sender: self)
                         
                     } else {
                         
@@ -149,11 +157,23 @@ class ViewController: UIViewController {
         
     }
     
+    
+    //MARK:
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+  
         
+    }
+    
+    override func viewDidAppear(animated: Bool) {
         
-        
+        if PFUser.currentUser() != nil {
+            
+            self.performSegueWithIdentifier("login", sender: self)
+
+            
+        }
         
     }
     
