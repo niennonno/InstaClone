@@ -67,9 +67,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNt-jn-90t">
-                                <rect key="frame" x="336" y="327" width="38" height="30"/>
+                                <rect key="frame" x="336" y="327" width="70" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="38" id="Kzv-w6-dsl"/>
+                                    <constraint firstAttribute="width" constant="70" id="Kzv-w6-dsl"/>
                                 </constraints>
                                 <state key="normal" title="Login"/>
                                 <connections>
@@ -115,6 +115,9 @@
                     <connections>
                         <outlet property="iPassword" destination="OT3-bx-kCn" id="vpU-fs-4p5"/>
                         <outlet property="iUserName" destination="7nR-Su-RBv" id="x70-Al-9cS"/>
+                        <outlet property="loginButton" destination="rNt-jn-90t" id="7nt-wj-SPM"/>
+                        <outlet property="registrationLabel" destination="xZc-F1-hHm" id="zJd-F3-ibC"/>
+                        <outlet property="signupButton" destination="Zgt-ve-iKE" id="hgf-xm-yK1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
