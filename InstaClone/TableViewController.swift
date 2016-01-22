@@ -33,7 +33,7 @@ class TableViewController: UITableViewController {
                 
                 for object in users {
                     if let user = object as? PFUser {
-                        
+                         
                         if user.objectId != PFUser.currentUser()?.objectId {
                             
                             self.username.append(user.username!)

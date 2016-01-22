@@ -120,6 +120,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73D8D6601C52669100BD8ECE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				733A6E4B1C50DBC200DB6A68 /* TableViewController.swift */,
+				73D8FFA61C4FB2D40056C0B7 /* ViewController.swift */,
+				73D8D65C1C52473300BD8ECE /* FeedTableViewCell.swift */,
+				73D8D65E1C524D8600BD8ECE /* FeedTableViewController.swift */,
+				73D8D65A1C52019800BD8ECE /* PostImageViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		73D8D6611C5266BD00BD8ECE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				73D8FFA41C4FB2D40056C0B7 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
 		73D8FF981C4FB2D40056C0B7 = {
 			isa = PBXGroup;
 			children = (
@@ -144,13 +164,9 @@
 		73D8FFA31C4FB2D40056C0B7 /* InstaClone */ = {
 			isa = PBXGroup;
 			children = (
-				73D8FFA41C4FB2D40056C0B7 /* AppDelegate.swift */,
-				73D8FFA61C4FB2D40056C0B7 /* ViewController.swift */,
-				733A6E4B1C50DBC200DB6A68 /* TableViewController.swift */,
+				73D8D6611C5266BD00BD8ECE /* AppDelegate */,
+				73D8D6601C52669100BD8ECE /* Controllers */,
 				73D8FFA81C4FB2D40056C0B7 /* Main.storyboard */,
-				73D8D65E1C524D8600BD8ECE /* FeedTableViewController.swift */,
-				73D8D65C1C52473300BD8ECE /* FeedTableViewCell.swift */,
-				73D8D65A1C52019800BD8ECE /* PostImageViewController.swift */,
 				73D8FFAB1C4FB2D40056C0B7 /* Assets.xcassets */,
 				73D8D6581C51FEE400BD8ECE /* user_blank.png */,
 				73D8FFAD1C4FB2D40056C0B7 /* LaunchScreen.storyboard */,
